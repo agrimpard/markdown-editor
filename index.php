@@ -42,7 +42,7 @@
 		<link href="tpl/app.css" rel="stylesheet">
 		<script src="tpl/jquery.js"></script>
 		<script src="tpl/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script src="tpl/app.js?1"></script>
+		<script src="tpl/app.js"></script>
 	</head>
 	<body class="app-markdown">
 		<div class="container-fluid">
