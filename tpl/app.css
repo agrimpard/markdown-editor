@@ -1,0 +1,83 @@
+/* structure */
+body, html {
+	padding: 0;
+	margin: 0;
+}
+.app-markdown {
+    height: 100vh;
+}
+.app-editor {
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+/* save button */
+.markdown-form-bt {
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.markdown-form-bt button {
+    margin-bottom: -5px;
+    border-radius: 4px 4px 0 0;
+    opacity: .5;
+    transition: all .2s ease;
+}
+.markdown-form-bt:hover button {
+    margin-bottom: 0;
+    opacity: 1;
+}
+.markdown-form-bt button svg {
+    margin: -4px 2px 0 0;
+}
+
+/* cke + markdown copy */
+.markdown-source {
+    visibility: hidden;
+}
+
+.ck-editor {
+    height: 100vh !important;
+    max-height: 100vh;
+}
+.ck-editor__top {
+    border: none !important;
+}
+.ck-toolbar {
+    border-right: none !important;
+}
+.ck-toolbar__items {
+    height: 30px !important;
+    border-bottom: 1px solid #CCC !important;
+}
+.ck-toolbar__items .ck-button {
+    margin: 0 !important;
+}
+.ck-editor__editable {
+    height: calc(100vh - 30px) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.ck-source-editing-area textarea {
+    overflow: auto !important;
+    height: calc(100vh - 30px) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.ck-source-editing-button {
+    display: none !important;
+}
+
+.markdown-copy {
+    resize: none;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    background: #F4FBFF;
+    border: none;
+    outline: none;
+}
