@@ -4,6 +4,8 @@
 
 As its name suggests, "Markdown editor" is a content editor allowing to format text with markdown syntax.
 
+![](screenshot.png)
+
 This editor allows to display in the same window a classic wysiwyg text editor and a text field displaying markdown content. It is possible to edit the content on both sides.
 
 The editor allows you to open a file with markdown content and save it in the same file after editing.
