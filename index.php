@@ -7,10 +7,8 @@
 
 
 	// write markdown file
-	if( isset($_POST['w']) ) {
-		if( is_file($file_path) ) {
-			file_put_contents( $file_path , $_POST['c'] );
-		}
+	if( isset($_POST['w']) && is_file($file_path) ) {
+		file_put_contents( $file_path , $_POST['c'] );
 	}
 
 	// open markdown file
